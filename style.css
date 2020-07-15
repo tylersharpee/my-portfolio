@@ -1,0 +1,86 @@
+/* Using :root to define global variables */
+:root {
+  --primaryColor: #E0FBFC;
+  --secondaryColor: #C2DFE3;
+  --tertiaryColor: #9DB4C0;
+  --fourthColor: #5C6B73;
+  --fifthColor: #253237;
+  --border-radius: 10px;
+}
+/* Living dangerously and setting background and text colors to match
+   this creates continuity within the scheme so there aren't contrasting
+   dark colors */
+body {
+  box-sizing: border-box;
+  margin: .5%;
+  padding: 1%;
+  background-color: var(--fifthColor);
+  color: var(--fifthColor);
+  text-align: center;
+  font-family: Ebrima;
+}
+header {
+  background-color: var(--fourthColor);
+  margin: 1%;
+  padding: 1%;
+  border-radius: var(--border-radius);
+}
+.wrapper {
+  color: var(--primaryColor);
+  height: min-content;
+}
+h1 {
+  font-size: xxx-large;
+  line-height: 20px;
+}
+nav {
+  margin: auto;
+  width: max-content;
+  padding: 1%;
+}
+/* Setting up Link Interactions */
+nav a {
+  color: var(--fifthColor);
+  font-size: 24px;
+  padding: 10px;
+  text-decoration: none;
+}
+a {
+  color: var(--fifthColor);
+}
+nav a:visited {
+  color: var(--tertiaryColor);
+}
+a:visited {
+  color: var(--fourthColor);
+}
+a:hover {
+  color: var(--primaryColor);
+}
+a:active {
+  color: var(--secondaryColor);
+}
+/* Making the picture smaller */
+img {
+  width: 250px;
+  border-radius: var(--border-radius);
+}
+main {
+  background-color: var(--fourthColor);
+  margin: 1%;
+  padding: 1%;
+  border-radius: var(--border-radius);
+}
+section {
+  background-color: var(--tertiaryColor);
+  margin: 1%;
+  padding: 2%;
+  border-radius: var(--border-radius);
+}
+/* Setting the footer text to a different font as it's not as relevant */
+footer {
+  font-size: small;
+  font-family: monospace;
+  line-height: 5px;
+  color: var(--primaryColor);
+}
