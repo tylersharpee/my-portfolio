@@ -39,17 +39,8 @@ nav {
   padding: 1%;
 }
 /* Setting up Link Interactions */
-nav a {
-  color: var(--fifthColor);
-  font-size: 24px;
-  padding: 10px;
-  text-decoration: none;
-}
 a {
   color: var(--fifthColor);
-}
-nav a:visited {
-  color: var(--tertiaryColor);
 }
 a:visited {
   color: var(--fourthColor);
@@ -59,6 +50,14 @@ a:hover {
 }
 a:active {
   color: var(--secondaryColor);
+}
+nav a {
+  font-size: 24px;
+  padding: 10px;
+  text-decoration: none;
+}
+nav a:visited {
+  color: var(--tertiaryColor);
 }
 /* Making the picture smaller */
 img {
