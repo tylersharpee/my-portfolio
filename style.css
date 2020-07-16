@@ -59,6 +59,9 @@ nav a {
 nav a:visited {
   color: var(--tertiaryColor);
 }
+nav a:hover {
+  color: var(--primaryColor);
+}
 /* Making the picture smaller */
 img {
   width: 250px;
