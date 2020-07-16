@@ -57,7 +57,7 @@ nav a {
   text-decoration: none;
 }
 nav a:visited {
-  color: var(--tertiaryColor);
+  color: var(--fifthColor);
 }
 nav a:hover {
   color: var(--primaryColor);
